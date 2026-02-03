@@ -25,7 +25,7 @@ public class GreetingsServices implements IGreetings{
     {
 
         int hour = localTime.getHour();
-        if(hour > 4 &&hour < 12)
+        if(hour > 4 && hour < 12)
         {
            return "Good Morning  "+name+"! Time Now :"+hour+"AM";
         }
